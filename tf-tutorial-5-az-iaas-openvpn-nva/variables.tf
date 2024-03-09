@@ -15,7 +15,7 @@ variable "azloc" {
 
 # Define the VNET resource-groups.  
 variable "rgnames" {
-  description = "Resource-group names for VNET."
+  description = "Resource-group names for VNETs."
   type        = list(string)
   default     = ["absdevopsvnetrg"]
 }
