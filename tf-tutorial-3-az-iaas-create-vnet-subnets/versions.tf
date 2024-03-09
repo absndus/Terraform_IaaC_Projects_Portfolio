@@ -12,7 +12,7 @@ terraform {
     organization = "absconsulting"
 
     workspaces {
-      name = "abshometutorialwkspce"
+      name = "abshometfdevopswkspce"
     }
   }
 
