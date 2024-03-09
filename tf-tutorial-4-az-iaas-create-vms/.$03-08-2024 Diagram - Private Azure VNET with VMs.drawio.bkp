@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2024-03-08T15:57:20.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="56pcjpO0nxWDSgfh7rNk" version="22.0.3" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1404" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="VFf7ayHjmBPMQPmDy_t_-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="40" width="760" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="VFf7ayHjmBPMQPmDy_t_-3" value="Azure Subscription -&amp;nbsp; ABS-DEVOPS-SUB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="50" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFf7ayHjmBPMQPmDy_t_-5" value="&lt;b&gt;Descriptions: &lt;/b&gt;Using the TerraForm IaaC code, the infrastructure for a private home cloud network is setup to ensure the highest security and expandibility of the Azure network and its subnets. The NSG was in place to each subnets to prevents interconnecting communications between each other, unless specified by the NVAs (Firewall - static routing, IDP, IPS).&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="770" width="760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VFf7ayHjmBPMQPmDy_t_-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="80" width="24.79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-0" value="&lt;b&gt;Resource Group -&amp;nbsp;absdevopsvnetrg&lt;/b&gt;" style="fontStyle=0;verticalAlign=top;align=left;spacingTop=-2;fillColor=#dae8fc;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4D4D4D;strokeWidth=1;container=1;collapsible=0;expand=0;recursiveResize=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="110" width="670" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="30" y="40" width="610" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-1" value="&lt;b&gt;Virtual Network -&amp;nbsp;absdevopvnetprimary&amp;nbsp;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="160" y="50" width="50" height="27.500000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-3" value="&lt;b&gt;PSubnet -&amp;nbsp;absdevopsvnetnetnvasub&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=default;fillColor=#F5F5F5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;fillStyle=solid;fixDash=0;perimeterSpacing=1;shadow=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="70" y="200" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-4" value="&lt;b&gt;IPv4 Net&lt;/b&gt;: 10.0.0.0/26&amp;nbsp;&lt;br&gt;&lt;b&gt;Total Usable IPv4&lt;/b&gt;: 59&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;: Network Virtual Appliances" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-3" vertex="1">
+          <mxGeometry x="10" y="40" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;absnsg&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="NjVnoGxtxKiicuV6XU6i-3" vertex="1">
+          <mxGeometry x="208.71000000000004" y="30" width="31.29" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-24" value="&lt;b&gt;PSubnet -&amp;nbsp;absdevopsvnetserverssub&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=default;fillColor=#F5F5F5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;fillStyle=solid;fixDash=0;perimeterSpacing=1;shadow=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="70" y="370" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-26" value="&lt;b&gt;IPv4 Net&lt;/b&gt;: 10.0.1.0/26&amp;nbsp;&lt;br&gt;&lt;b&gt;Total Usable IPv4&lt;/b&gt;: 59&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;: Network Servers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-24" vertex="1">
+          <mxGeometry x="10" y="40" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-37" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;absnsg&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="NjVnoGxtxKiicuV6XU6i-24" vertex="1">
+          <mxGeometry x="208.71000000000004" y="31" width="31.29" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-29" value="&lt;b&gt;PSubnet -&amp;nbsp;absdevopsvnetclientwkstnsub&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=default;fillColor=#F5F5F5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;fillStyle=solid;fixDash=0;perimeterSpacing=1;shadow=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="350" y="130" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-30" value="&lt;b&gt;IPv4 Net&lt;/b&gt;: 10.0.2.0/24&amp;nbsp;&lt;br&gt;&lt;b&gt;Total Usable IPv4&lt;/b&gt;: 251&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;: Internal Client Workstations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-29" vertex="1">
+          <mxGeometry x="10" y="35" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-38" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;absnsg&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="NjVnoGxtxKiicuV6XU6i-29" vertex="1">
+          <mxGeometry x="230" y="31" width="31.29" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-31" value="&lt;b&gt;PSubnet -&amp;nbsp;absdevopsvnetopenvpnclients&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=default;fillColor=#F5F5F5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;fillStyle=solid;fixDash=0;perimeterSpacing=1;shadow=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="350" y="290" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-32" value="&lt;b&gt;IPv4 Net&lt;/b&gt;: 10.0.3.0/24&amp;nbsp;&lt;br&gt;&lt;b&gt;Total Usable IPv4&lt;/b&gt;: 251&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;: OpenVPN Clients" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-31" vertex="1">
+          <mxGeometry x="10" y="35" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-39" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;absnsg&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="NjVnoGxtxKiicuV6XU6i-31" vertex="1">
+          <mxGeometry x="230" y="30" width="31.29" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-33" value="&lt;b&gt;PSubnet -&amp;nbsp;absdevopsvnetcctvsub&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=default;fillColor=#F5F5F5;verticalAlign=top;align=left;spacingLeft=30;fontColor=#333333;dashed=1;fillStyle=solid;fixDash=0;perimeterSpacing=1;shadow=1;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="350" y="450" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-34" value="&lt;b&gt;IPv4 Net&lt;/b&gt;: 10.0.4.0/24&lt;br&gt;&lt;b&gt;Total Usable IPv4&lt;/b&gt;: 251&lt;br&gt;&lt;b&gt;Purpose&lt;/b&gt;: CCTV PoE Cameras" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-33" vertex="1">
+          <mxGeometry x="10" y="35" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;absnsg&lt;/font&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="NjVnoGxtxKiicuV6XU6i-33" vertex="1">
+          <mxGeometry x="230" y="31" width="31.29" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVnoGxtxKiicuV6XU6i-41" value="&lt;b&gt;IPv4 Address Space: &lt;/b&gt;10.0.0.0/16&lt;br&gt;&lt;b&gt;Total Usable IPv4s:&amp;nbsp;&lt;/b&gt;65,531&lt;br&gt;&lt;b&gt;Purpose: &lt;/b&gt;Private Azure VNET for DevOps.&lt;br&gt;&lt;b&gt;NSG: &lt;/b&gt;Prevents subnet interconnect (pFSense). Subnets go through FW/IDP/IPS." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="NjVnoGxtxKiicuV6XU6i-0" vertex="1">
+          <mxGeometry x="70" y="110" width="250" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
