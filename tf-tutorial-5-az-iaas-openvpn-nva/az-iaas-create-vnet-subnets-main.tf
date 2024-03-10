@@ -120,7 +120,7 @@ resource "azurerm_network_security_group" "nsg2" {
   }
 }
 
-# Associate NSG with the VM's nic cards. This is a test. 
+# Associate NSG with the VM's nic cards. This is a test. Test
 resource "azurerm_network_interface_security_group_association" "nsg_association2" {
   count                     = length(var.vmnames)
   network_interface_id      = azurerm_network_interface.main[count.index].id
