@@ -1,3 +1,4 @@
 tf-tutorial-5-az-iaas-openvpn-nva/.terraform.lock.hcl
 tf-tutorial-5-az-iaas-openvpn-nva/.terraform/environment
 tf-tutorial-5-az-iaas-openvpn-nva/.terraform/terraform.tfstate
+tf-tutorial-5-az-iaas-openvpn-nva/.terraform/terraform-provider-azurerm_v3.10.0_x5.exe
