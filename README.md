@@ -18,5 +18,5 @@
 
 <h2> 4. <a href="https://github.com/absndus/Terraform_IaaC_Projects_Portfolio-/tree/main/tf-tutorial-4-az-iaas-create-vms">Terraform IaaC Azure VNET, Subnets, NSG, and VMs Infrastructure</a></h2>
 <img src="https://github.com/absndus/Terraform_IaaC_Projects_Portfolio-/blob/main/tf-tutorial-4-az-iaas-create-vms/03-08-2024%20Diagram%20-%20Private%20Azure%20VNET%20with%20VMs.png"/>
-<p><b>Description:</b> This is the infrastructure as a code setup that creates the required resource-groups, VNET, associated VNET subnets, and the Linux RHEL VMs in Azure using various Terraform programming techniques and best practices. 
+<p><b>Description:</b> This is the infrastructure as a code setup that creates the required resource-groups, VNET, associated VNET subnets, and the Linux RHEL VMs in Azure using various Terraform programming techniques and best practices in DevOps. 
 </p>
