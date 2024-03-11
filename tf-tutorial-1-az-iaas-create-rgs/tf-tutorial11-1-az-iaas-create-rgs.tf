@@ -11,3 +11,8 @@ resource "azurerm_resource_group" "rg1" {
   name     = "rg1"
   location = "centralus"
 }
+
+resource "azurerm_resource_group" "compute1rg" {
+  name = "compute1rg"
+  location = "centralus"
+}
