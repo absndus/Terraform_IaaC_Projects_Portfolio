@@ -19,3 +19,4 @@ tf-tutorial-4-az-iaas-create-vms/.terraform/providers/registry.terraform.io/hash
 tf-tutorial-4-az-iaas-create-vms/.terraform/terraform.tfstate
 tf-tutorial-4-az-iaas-create-vms/.terraform/environment
 tf-tutorial-4-az-iaas-create-vms/.terraform.lock.hcl
+tf-tutorial-4-az-iaas-create-vms/credentials-variables.tf
