@@ -11,3 +11,7 @@ tf-tutorial-2-az-iaas-create-multiplergs/.terraform/providers/registry.terraform
 tf-tutorial-2-az-iaas-create-multiplergs/.terraform/terraform.tfstate
 tf-tutorial-2-az-iaas-create-multiplergs/.terraform.lock.hcl
 tf-tutorial-2-az-iaas-create-multiplergs/.terraform/environment
+tf-tutorial-3-az-iaas-create-vnet-subnets/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.10.0/windows_386/terraform-provider-azurerm_v3.10.0_x5.exe
+tf-tutorial-3-az-iaas-create-vnet-subnets/.terraform/terraform.tfstate
+tf-tutorial-3-az-iaas-create-vnet-subnets/.terraform/environment
+tf-tutorial-3-az-iaas-create-vnet-subnets/.terraform.lock.hcl
