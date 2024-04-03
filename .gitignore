@@ -7,3 +7,7 @@ tf-tutorial-1-az-iaas-create-rgs/.terraform/environment
 tf-tutorial-1-az-iaas-create-rgs/.terraform/terraform.tfstate
 tf-tutorial-1-az-iaas-create-rgs/.terraform/terraform-provider-azurerm_v3.10.0_x5.exe
 tf-tutorial-1-az-iaas-create-rgs/.terraform.lock.hcl
+tf-tutorial-2-az-iaas-create-multiplergs/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.10.0/windows_386/terraform-provider-azurerm_v3.10.0_x5.exe
+tf-tutorial-2-az-iaas-create-multiplergs/.terraform/terraform.tfstate
+tf-tutorial-2-az-iaas-create-multiplergs/.terraform.lock.hcl
+tf-tutorial-2-az-iaas-create-multiplergs/.terraform/environment
