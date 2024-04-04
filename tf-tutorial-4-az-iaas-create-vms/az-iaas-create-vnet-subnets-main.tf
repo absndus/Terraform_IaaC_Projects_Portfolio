@@ -89,7 +89,7 @@ resource "azurerm_network_security_group" "nsg2" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "443"
-    source_address_prefix      = "Internet"
+    source_address_prefix      = "VirtualNetwork"
     destination_address_prefix = "*"
   }
 
@@ -102,13 +102,13 @@ resource "azurerm_network_security_group" "nsg2" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "80"
-    source_address_prefix      = "Internet"
+    source_address_prefix      = "VirtualNetwork"
     destination_address_prefix = "*"
   }
 
   security_rule {
     name                       = "PreventSSH"
-    description                = "Prevent SSH"
+    description                = "Prevent SSH from source, internet."
     priority                   = 150
     direction                  = "Inbound"
     access                     = "Deny"
