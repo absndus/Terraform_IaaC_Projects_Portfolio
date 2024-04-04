@@ -118,6 +118,19 @@ resource "azurerm_network_security_group" "nsg2" {
     source_address_prefix      = "Internet"
     destination_address_prefix = "*"
   }
+
+  security_rule {
+    name                       = "AllowSSHApproved"
+    description                = "Allow SSH traffic from approved public IPv4 address."
+    priority                   = 110
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "Tcp"
+    source_port_range          = "*"
+    destination_port_range     = "22"
+    source_address_prefix      = "140.186.178.33"
+    destination_address_prefix = "*"
+  }
 }
 
 # Associate NSG with the VM's nic cards.  
