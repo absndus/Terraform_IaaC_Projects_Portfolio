@@ -5,7 +5,7 @@
 # Note: This PowerShell script completely turns off the VMs. 
 
 # Deallocate the VMs. 
-az vm start --name absdevopsrhelwkstn1 --resource-group absdevopsrhelwkstn1rg
+az vm deallocate --name absdevopsrhelwkstn1 --resource-group absdevopsrhelwkstn1rg
 az vm deallocate --name absdevopsrhelwkstn2 --resource-group absdevopsrhelwkstn2rg
 az vm deallocate --name absdevopsrhelwkstn3 --resource-group absdevopsrhelwkstn3rg
 

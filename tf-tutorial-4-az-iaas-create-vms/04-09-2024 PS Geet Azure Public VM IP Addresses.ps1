@@ -1,0 +1,1 @@
+az vm list-ip-addresses --resource-group absdevopsrhelwkstn1rg --name absdevopsrhelwkstn1 --query "[].virtualMachine.network.publicIpAddresses[0].ipAddress" --output tsv
