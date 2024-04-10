@@ -128,7 +128,7 @@ resource "azurerm_network_security_group" "nsg2" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "22"
-    source_address_prefix      = "VirtualNetwork"
+    source_address_prefix      = "140.186.178.33"
     destination_address_prefix = "*"
   }
 }
